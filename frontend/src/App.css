@@ -1,0 +1,272 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  align-items: center;
+  background: url('/background.jpg') no-repeat center center fixed;
+  background-size: cover ;
+  color: white;
+}
+
+#seachFormDiv
+{ 
+  border: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+  padding: 20px;
+  margin: 30px;
+  width: 650px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  font-family: sans-serif;
+  color: white;
+}
+
+hr{
+  border: 1px solid grey;
+}
+
+#heading1{
+
+  font-family: 'PT Serif', serif;
+  font-size: 50px !important;
+  font-weight: normal;
+
+
+}
+.navlink{
+  color: white !important;
+  padding: 50px;
+  
+}
+.active{
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 30px;
+
+}
+.tableImgSize
+{
+  width: 90px;
+  height: 100px;
+}
+table{
+ 
+  color: white !important;
+}
+
+option {
+  background-color: rgba(44, 43, 43, 0.9);
+  color: white;
+}
+
+/* .favorite-icon:before {
+  content: "\f004";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  color: white;
+  transition: all 0.2s;
+}
+.favorite-icon.fas:before {
+  color: red;
+}
+.favorite-icon-favorite:before {
+  color: red;
+}
+.favorite-icon-empty:before {
+  color: white;
+} */
+
+/* .favorite-icon {
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  transition: all 0.2s;
+}
+
+.favorite-icon.fas,
+.favorite-icon-favorite {
+  color: red;
+}
+
+.favorite-icon-empty {
+  color: white;
+}
+
+.favorite-icon:hover {
+  cursor: pointer;
+} */
+/* .favorite-icon {
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  transition: all 0.2s;
+  border-radius: 50%;
+  background-color: white;
+  padding: 5px;
+}
+
+.favorite-icon.fas,
+.favorite-icon-favorite {
+  color: red;
+}
+
+.favorite-icon-empty {
+  color: white;
+}
+
+.favorite-icon:hover {
+  cursor: pointer;
+} */
+.favorite-icon {
+  display: inline-flex; /* use flexbox to center the icon vertically and horizontally */
+  justify-content: center;
+  align-items: center;
+  font-size: 20px; /* increase the font size to increase the size of the icon */
+  color: darkgray;
+  transition: all 0.1s;
+  border-radius: 50%;
+  background-color: white;
+  padding: 10px; /* increase the padding to match the larger icon size */
+  box-sizing: border-box;
+  height: 50px; /* set the height and width of the circle */
+  width: 50px;
+}
+
+.favorite-icon > svg {
+  height: 100%; /* set the height and width of the heart to fill the circle */
+  width: 100%;
+  fill: black; /* set the fill color of the heart to black */
+  stroke: black; /* set the stroke color of the heart to black */
+  stroke-width: 2px; /* set the stroke width of the heart to 2px */
+}
+
+.favorite-icon.fas,
+.favorite-icon-favorite {
+  color: red;
+  border: 5px black;
+}
+
+.favorite-icon-empty {
+  color: rgb(228, 228, 228);
+  border: 1px black;
+}
+
+.favorite-icon:hover {
+  cursor: pointer;
+}
+
+
+
+.react-tabs__tab--selected {
+  border: none;
+  border-bottom: 2px solid violet;
+  bottom: none;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.show-more {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* .favourite-table tr:hover {
+  background-color: #f2f2f2;
+} */
+/* .table-hover tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+.table-hover tbody tr {
+  background-color: transparent;
+} */
+/* .active {
+  border: none;
+} */
+
+@media screen and (min-width: 768px) {
+  artist-card {
+    margin-left: 60px;
+    margin-right: 60px; 
+  }
+
+  /* .tab-margin-left {
+    margin-left: 215px
+  }
+
+  .tab-margin-right {
+    margin-right: 235px
+  } */
+}
+
+@media screen and (max-width: 576px) {
+  .tab-margin-left {
+    margin-left: 0px !important
+  }
+}
+
+.album-col {
+  flex-direction: column;
+}
